@@ -1,0 +1,19 @@
+.logo {
+  color: white;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+.logo_secondary {
+  color: #03c988;
+  transition: 0.4s;
+}
+
+.logo:hover {
+  color: rgb(203, 202, 202);
+}
+
+.logo_secondary:hover {
+  color: #04aa73;
+}

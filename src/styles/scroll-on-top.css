@@ -1,0 +1,22 @@
+.btn_scroll {
+  position: fixed;
+  bottom: 16px;
+  right: 9px;
+  z-index: 10;
+}
+
+.btn_scroll button {
+  background-color: #0e141e;
+  color: white;
+  padding: 16px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.visible {
+  display: block;
+}
+
+.notVisible {
+  display: none;
+}

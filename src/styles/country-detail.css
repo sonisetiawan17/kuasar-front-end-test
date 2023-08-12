@@ -1,0 +1,58 @@
+.country_detail {
+  padding-top: 15px;
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
+.country_detail h1 {
+  text-align: center;
+  color: #393646;
+  font-size: 50px;
+}
+
+@media screen and (max-width: 640px) {
+  .country_detail h1 {
+    font-size: 30px;
+  }
+}
+
+@media screen and (min-width: 641px) and (max-width: 768px) {
+  .country_detail h1 {
+    font-size: 40px;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .country_detail h1 {
+    font-size: 40px;
+  }
+}
+
+.country_detail_information {
+  padding-top: 12px;
+  font-size: 20px;
+}
+
+@media screen and (max-width: 640px) {
+  .country_detail_information {
+    font-size: 15px;
+  }
+}
+
+@media screen and (min-width: 641px) and (max-width: 768px) {
+  .country_detail_information {
+    font-size: 15px;
+  }
+}
+
+.country_detail_information p {
+  color: black;
+  font-weight: 700;
+}
+
+.country_detail_information span {
+  color: rgb(91, 91, 91);
+  font-weight: 400;
+  padding-left: 10px;
+}
